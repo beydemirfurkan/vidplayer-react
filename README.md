@@ -1,5 +1,8 @@
 # vidplayer-react
 
+[![npm version](https://img.shields.io/npm/v/vidplayer-react.svg)](https://www.npmjs.com/package/vidplayer-react)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A production-ready, headless-first video player library for React 18+ with full SSR/Next.js support.
 
 ## Features
@@ -9,9 +12,10 @@ A production-ready, headless-first video player library for React 18+ with full 
 - **Tree-shakeable** - Import only what you need
 - **TypeScript** - Full type safety with comprehensive type definitions
 - **SSR/Next.js Ready** - Works seamlessly with Server-Side Rendering and React Server Components
-- **Performance optimized** - Lazy loading, memoization, virtual scrolling support
+- **Performance optimized** - Lazy loading, memoization, thumbnail caching with LRU eviction
 - **Accessible** - Keyboard navigation (YouTube-style), ARIA attributes, semantic HTML
 - **Customizable Icons** - Use your own icon components or the built-in defaults
+- **Thumbnail Preview** - YouTube-style thumbnail preview on progress bar hover
 
 ## Installation
 
@@ -325,3 +329,7 @@ interface VideoItem {
 ## License
 
 MIT
+
+## Author
+
+Furkan Beydemir - [@beydemirfurkan](https://github.com/beydemirfurkan)
